@@ -32,6 +32,12 @@ public class StepDefinition extends BaseClass {
 	  w.getUsername().sendKeys(user);
 	  w.getPassword().sendKeys(pass);
 	}
+	
+	private void git() {
+		System.out.println("gitup started");
+		
+
+	}
 
 	
 }
